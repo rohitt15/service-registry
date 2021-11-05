@@ -3,5 +3,6 @@ server:
 
 eureka:
   #here we are making reqister false so no need to register on tne eureka server
-  register-with-eureka: false
-  fetch-registry: false
+  client:
+    register-with-eureka: false
+    fetch-registry: false
